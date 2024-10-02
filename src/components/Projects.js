@@ -19,7 +19,7 @@ export default function Projects() {
           <h2 className="text-2xl font-bold mb-6 text-violet-800 font-orbitron">Web Development</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <ProjectCard
-              title="Webfin"
+              title="WebMint"
               description="Developed a fully functional front-end web financial services app using Vue.js, Tailwind, AOS, Chart.js, and REST API."
               link="https://webmint-money.vercel.app/"
             />
