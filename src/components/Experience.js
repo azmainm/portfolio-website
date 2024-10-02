@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from 'lottie-react';
-import animationData2 from '../assets/animations/Animation-2.json';
+import animationData2 from '../assets/animations/Animation-3.json';
 
 const Experience = () => {
   return (
