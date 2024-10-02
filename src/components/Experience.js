@@ -4,7 +4,7 @@ import animationData2 from '../assets/animations/Animation-2.json';
 
 const Experience = () => {
   return (
-    <section id="experience"  className="flex flex-col md:flex-row items-center justify-center min-h-screen py-16 bg-gray-50 px-8 md:px-16 lg:px-32">
+    <section id="experience"  className="flex flex-col md:flex-row items-center justify-center min-h-screen py-16 bg-gray-50 px-8 md:px-16 lg:px-32 font-sans">
       {/* Animation */}
       <div className="w-full md:w-1/3 lg:w-1/3 mb-8 md:mb-0 flex justify-center items-center">
         <Lottie animationData={animationData2} loop={true} />

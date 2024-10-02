@@ -5,7 +5,7 @@ import animationData from '../assets/animations/Animation-3.json'; // Use your A
 
 export default function Projects() {
   return (
-    <section id="projects" className="flex flex-col md:flex-row items-center justify-center min-h-screen py-16 bg-gray-50 px-8 md:px-16 lg:px-32">
+    <section id="projects" className="flex flex-col md:flex-row items-center justify-center min-h-screen py-16 bg-gray-50 px-8 md:px-16 lg:px-32 font-sans">
       {/* Animation on the Left */}
       <div className="w-full md:w-1/3 lg:w-1/3 mb-8 md:mb-0 flex justify-center items-center flex-col">
         <h1 className="text-black text-4xl font-bold font-orbitron mb-4">Projects</h1>

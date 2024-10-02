@@ -26,7 +26,7 @@ export default function Contact() {
           <FaDribbble size={40} />
         </a>
       </div>
-      <footer className="text-gray-700">Developed by Azmain Morshed</footer>
+      <footer className="text-gray-700 font-orbitron">Developed by Azmain Morshed</footer>
     </section>
     
   );
