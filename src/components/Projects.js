@@ -16,7 +16,7 @@ export default function Projects() {
       <div className="w-full md:w-2/3 lg:w-2/3 space-y-12">
         {/* Web Development Projects */}
         <div>
-          <h2 className="text-2xl font-bold mb-6 text-violet-800">Web Development</h2>
+          <h2 className="text-2xl font-bold mb-6 text-violet-800 font-orbitron">Web Development</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <ProjectCard
               title="Webfin"
@@ -28,6 +28,12 @@ export default function Projects() {
               description="Developed a full stack fitness blogging site using Next.js, Tailwind, Framer, FastAPI, and SQLite."
               link="https://maximus-phi.vercel.app/"
             />
+            <ProjectCard
+              title="Jackpt"
+              description="Developed the front end of a bartering platform using React.js & Tailwind
+CSS."
+              link="https://jackptbd.com/"
+            />
           </div>
           <a href="https://github.com/azmainm" target="_blank" rel="noopener noreferrer" className="text-lg flex items-center mt-4 text-violet-600 hover:underline">
             <FaGithub className="mr-2" /> View More on GitHub
@@ -36,11 +42,16 @@ export default function Projects() {
 
         {/* Design Projects */}
         <div>
-          <h2 className="text-2xl font-bold mb-6 text-violet-800">Design</h2>
+          <h2 className="text-2xl font-bold mb-6 text-violet-800 font-orbitron">Design</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <ProjectCard
               title="Augmented Reality Interior Design App Case Study"
               description="Case study and wireframe design for an interior design AR app."
+              link="https://dribbble.com/"
+            />
+            <ProjectCard
+              title="Jackpt Mobile App"
+              description="Wireframed, Designed and Prototyped the entire app's UX and UI."
               link="https://dribbble.com/"
             />
           </div>
@@ -51,12 +62,31 @@ export default function Projects() {
 
         {/* Machine Learning Projects */}
         <div>
-          <h2 className="text-2xl font-bold mb-6 text-violet-800">Machine Learning</h2>
+          <h2 className="text-2xl font-bold mb-6 text-violet-800 font-orbitron">Machine Learning</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <ProjectCard
+              title="IBM Employee Churn Analysis & Prediction"
+              description="Data Preprocessing, Feature
+Engineering, Exploratory Data Analysis, Model Building, and Documentation using
+Pandas, Matplotlib, Seaborn & Scikit-Learn"
+              link="https://www.kaggle.com/code/azmainmorshed/ibm-employee-churn-prediction-eda."
+            />
             <ProjectCard
               title="Facial Recognition Attendance System"
               description="Developed facial recognition registration and attendance system using OpenCV, FaceNet, Flask, and React."
               link="https://kaggle.com/"
+            />
+            <ProjectCard
+              title="IBM Employee Churn Analysis & Prediction"
+              description="Data Preprocessing, Feature
+Engineering, Exploratory Data Analysis, Model Building, and Documentation using
+Pandas, Matplotlib, Seaborn & Scikit-Learn"
+              link="https://www.kaggle.com/code/azmainmorshed/ibm-employee-churn-prediction-eda."
+            />
+            <ProjectCard
+              title="irBnb Home Listings Analysis & Visualization"
+              description="Tableau Analysis & Visualization."
+              link="https://shorturl.at/CFJVX"
             />
           </div>
           <a href="http://kaggle.com/azmainmorshed" target="_blank" rel="noopener noreferrer" className="text-lg flex items-center mt-4 text-violet-600 hover:underline">
@@ -70,7 +100,7 @@ export default function Projects() {
 
 const ProjectCard = ({ title, description, link }) => (
   <div className="border border-gray-300 shadow-md p-6 rounded-md hover:shadow-lg transition flex flex-col bg-white">
-    <h3 className="text-lg font-bold text-gray-800 mb-2">{title}</h3>
+    <h3 className="text-lg font-bold text-gray-800 mb-2 font-orbitron">{title}</h3>
     <p className="text-gray-600 mb-4">{description}</p>
     <a
       href={link}

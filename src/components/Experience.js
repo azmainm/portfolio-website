@@ -12,8 +12,9 @@ const Experience = () => {
 
       {/* Experience Content */}
       <div className="w-full md:w-2/3 lg:w-2/3 space-y-12">
+      <h1 className="text-black text-4xl font-bold font-orbitron mb-4">Experience</h1>
         <div>
-          <h2 className="text-2xl font-bold mb-6 text-violet-800">Nagad Ltd.</h2>
+          <h2 className="text-2xl font-bold mb-6 text-violet-800 font-orbitron">Nagad Ltd.</h2>
           <p className="text-gray-600">
             Solution Engineer (Design & Solutions) | MARCH 2024 - PRESENT
           </p>
@@ -25,7 +26,7 @@ const Experience = () => {
         </div>
 
         <div>
-          <h2 className="text-2xl font-bold mb-6 text-violet-800">Eve Industries LLC, USA</h2>
+          <h2 className="text-2xl font-bold mb-6 text-violet-800 font-orbitron">Eve Industries LLC, USA</h2>
           <p className="text-gray-600">
             Lead Machine Learning Engineer | FEBRUARY 2024 (Project-based)
           </p>
@@ -35,7 +36,7 @@ const Experience = () => {
         </div>
 
         <div>
-          <h2 className="text-2xl font-bold mb-6 text-violet-800">Genetica Industries Ltd</h2>
+          <h2 className="text-2xl font-bold mb-6 text-violet-800 font-orbitron">Genetica Industries Ltd</h2>
           <p className="text-gray-600">
             Business Development Executive | JUNE 2023 - FEB 2024
           </p>
@@ -46,7 +47,7 @@ const Experience = () => {
         </div>
 
         <div>
-          <h2 className="text-2xl font-bold mb-6 text-violet-800">Future Track Bangladesh</h2>
+          <h2 className="text-2xl font-bold mb-6 text-violet-800 font-orbitron">Future Track Bangladesh</h2>
           <p className="text-gray-600">
             Project Developer | SEPT 2021 - APRIL 2023
           </p>
