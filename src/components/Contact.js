@@ -8,7 +8,7 @@ import animationData3 from '../assets/animations/Animation-3.json';
 export default function Contact() {
   return (
     <section id="contact" className="py-8 bg-gray-50 px-8 md:px-16 lg:px-32 text-center">
-      <h2 className="text-3xl font-semibold text-gray-800 mb-5 font-orbitron ">Find Me</h2>
+      <h2 className="text-3xl font-semibold text-gray-800 mb-8 font-orbitron ">Find Me</h2>
       <div className="flex justify-center space-x-8 text-violet-600 mb-8">
         <a href="mailto:azmainmorshed03@gmail.com" className="hover:text-violet-800 transition">
           <FaEnvelope size={40} />
