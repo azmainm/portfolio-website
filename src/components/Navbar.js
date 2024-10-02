@@ -62,10 +62,10 @@ export default function Navbar({ logo }) {
 
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-10 ml-2">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/azmainm" target="_blank" rel="noopener noreferrer">
               <FaGithub className="text-violet-800 text-3xl hover:text-violet-600 transition-colors duration-200" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/azmain-morshed/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-violet-800 text-3xl hover:text-violet-600 transition-colors duration-200" />
             </a>
           </div>
