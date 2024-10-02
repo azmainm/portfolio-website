@@ -70,7 +70,7 @@ export default function Navbar({ logo }) {
           </div>
 
           {/* Copyright Text */}
-          <p className="text-gray-600 text-sm mt-6 ml-2">
+          <p className="text-gray-600 text-sm mt-6">
             Copyright © All Rights Reserved
           </p>
         </div>

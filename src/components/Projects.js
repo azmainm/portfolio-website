@@ -77,14 +77,7 @@ Pandas, Matplotlib, Seaborn & Scikit-Learn"
               link="https://kaggle.com/"
             />
             <ProjectCard
-              title="IBM Employee Churn Analysis & Prediction"
-              description="Data Preprocessing, Feature
-Engineering, Exploratory Data Analysis, Model Building, and Documentation using
-Pandas, Matplotlib, Seaborn & Scikit-Learn"
-              link="https://www.kaggle.com/code/azmainmorshed/ibm-employee-churn-prediction-eda."
-            />
-            <ProjectCard
-              title="irBnb Home Listings Analysis & Visualization"
+              title="AsirBnb Home Listings Analysis & Visualization"
               description="Tableau Analysis & Visualization."
               link="https://shorturl.at/CFJVX"
             />
