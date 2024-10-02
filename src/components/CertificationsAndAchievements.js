@@ -4,7 +4,7 @@ import animationData3 from '../assets/animations/Animation-3.json';
 
 const CertificationsAndAchievements = () => {
   return (
-    <section className="flex flex-col md:flex-row-reverse items-center justify-center min-h-screen py-16 bg-gray-50 px-8 md:px-16 lg:px-32">
+    <section id="certificationsandachievements" className="flex flex-col md:flex-row-reverse items-center justify-center min-h-screen py-16 bg-gray-50 px-8 md:px-16 lg:px-32">
       
       {/* Animation */}
       <div className="w-full md:w-1/3 lg:w-1/3 mb-8 md:mb-0 flex justify-center items-center">

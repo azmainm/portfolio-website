@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 export default function Navbar({ logo }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,8 +20,8 @@ export default function Navbar({ logo }) {
           <a href="#skills" className="hover:text-violet-600 text-gray-800">Skills</a>
           <a href="#experience" className="hover:text-violet-600 text-gray-800">Experience</a>
           <a href="#education" className="hover:text-violet-600 text-gray-800">Education</a>
-          <a href="#certifications" className="hover:text-violet-600 text-gray-800">Certifications</a>
-          <a href="#achievements" className="hover:text-violet-600 text-gray-800">Achievements</a>
+          <a href="#certificationsandachievements" className="hover:text-violet-600 text-gray-800">Certifications</a>
+          <a href="#certificationsandachievements" className="hover:text-violet-600 text-gray-800">Achievements</a>
           <a href="#contact" className="hover:text-violet-600 text-gray-800">Contact</a>
         </div>
       </nav>
@@ -55,8 +56,8 @@ export default function Navbar({ logo }) {
           <a href="#skills" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Skills</a>
           <a href="#experience" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Experience</a>
           <a href="#education" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Education</a>
-          <a href="#certifications" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Certifications</a>
-          <a href="#achievements" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Achievements</a>
+          <a href="#certificationsandachievements" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Certifications</a>
+          <a href="#certificationsandachievements" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Achievements</a>
           <a href="#contact" onClick={toggleNavbar} className="text-gray-800 text-lg font-light pb-10">Contact</a>
 
           {/* Social Media Icons */}
