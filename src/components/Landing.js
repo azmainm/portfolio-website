@@ -31,11 +31,14 @@ export default function Landing() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-white p-8 md:p-16 lg:px-32 lg:py-16 font-orbitron"
+      className="min-h-screen flex items-center justify-center bg-gray-50 p-8 md:p-16 lg:px-32 lg:py-16 font-orbitron"
     >
+      
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
+        
         {/* Left: Animation */}
         <div className="w-full md:w-1/2 lg:w-2/5 mb-8 md:mb-0">
+        
           <Lottie animationData={animationData} loop={true} />
         </div>
 

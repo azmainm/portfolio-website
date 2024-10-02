@@ -3,6 +3,12 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
 import logo from './assets/logo.png'; // Import the logo
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
+import Experience from './components/Experience';
+import Education from './components/Education';
+import CertificationsAndAchievements from './components/CertificationsAndAchievements';
 
 export default function Portfolio() {
   return (
@@ -22,6 +28,12 @@ export default function Portfolio() {
 
       {/* Main Sections */}
       <Landing />
+      <Projects />
+      <Skills />
+      <Experience />
+      <Education />
+      <CertificationsAndAchievements />
+      <Contact />
     </div>
   );
 }
