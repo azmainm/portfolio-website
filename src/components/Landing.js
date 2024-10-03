@@ -45,7 +45,7 @@ export default function Landing() {
         {/* Right: Animated Text */}
         <div className="w-full md:w-1/2 lg:w-3/5 text-center md:text-right ml-20">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4 flex items-center mr-2">
-            <span className="text-7xl md:text-9xl text-violet-700">B</span>
+            <span className="text-7xl md:text-9xl text-teal-700">B</span>
             <span
               className={`transition-opacity duration-500 ease-out transform ${
                 animateText.lueprint ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-6'
@@ -55,7 +55,7 @@ export default function Landing() {
             </span>
           </h1>
           <h1 className="text-4xl mr-2 md:text-6xl font-bold text-gray-800 mb-4 flex items-center">
-            <span className="text-7xl md:text-9xl text-violet-700">D</span>
+            <span className="text-7xl md:text-9xl text-teal-700">D</span>
             <span
               className={`transition-opacity duration-500 ease-out transform ${
                 animateText.esign ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-6'
@@ -65,7 +65,7 @@ export default function Landing() {
             </span>
           </h1>
           <h1 className="text-4xl mr-2 md:text-6xl font-bold text-gray-800 flex items-center">
-            <span className="text-7xl md:text-9xl text-violet-700">D</span>
+            <span className="text-7xl md:text-9xl text-teal-700">D</span>
             <span
               className={`transition-opacity duration-500 ease-out transform ${
                 animateText.evelop ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-6'

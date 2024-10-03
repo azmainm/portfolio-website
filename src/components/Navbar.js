@@ -15,14 +15,14 @@ export default function Navbar({ logo }) {
       <nav className="hidden md:flex justify-center bg-white text-gray-700 z-50 w-full font-orbitron text-sm">
         <div className="container flex items-center justify-center space-x-8 py-4">
           {/* Navigation Links */}
-          <a href="#home" className="hover:text-violet-600 text-gray-800">Home</a>
-          <a href="#projects" className="hover:text-violet-600 text-gray-800">Projects</a>
-          <a href="#skills" className="hover:text-violet-600 text-gray-800">Skills</a>
-          <a href="#experience" className="hover:text-violet-600 text-gray-800">Experience</a>
-          <a href="#education" className="hover:text-violet-600 text-gray-800">Education</a>
-          <a href="#certificationsandachievements" className="hover:text-violet-600 text-gray-800">Certifications</a>
-          <a href="#certificationsandachievements" className="hover:text-violet-600 text-gray-800">Achievements</a>
-          <a href="#contact" className="hover:text-violet-600 text-gray-800">Contact</a>
+          <a href="#home" className="hover:text-teal-600 text-gray-800">Home</a>
+          <a href="#projects" className="hover:text-teal-600 text-gray-800">Projects</a>
+          <a href="#skills" className="hover:text-teal-600 text-gray-800">Skills</a>
+          <a href="#experience" className="hover:text-teal-600 text-gray-800">Experience</a>
+          <a href="#education" className="hover:text-teal-600 text-gray-800">Education</a>
+          <a href="#certificationsandachievements" className="hover:text-teal-600 text-gray-800">Certifications</a>
+          <a href="#certificationsandachievements" className="hover:text-teal-600 text-gray-800">Achievements</a>
+          <a href="#contact" className="hover:text-teal-600 text-gray-800">Contact</a>
         </div>
       </nav>
 
@@ -38,7 +38,7 @@ export default function Navbar({ logo }) {
 
       {/* Side Navbar (Mobile) */}
       <div
-        className={`bg-gradient-to-r from-white to-violet-100 fixed top-0 right-0 h-full w-3/4 sm:w-1/2 bg-white border shadow-lg z-50 transform transition-transform duration-400 ${
+        className={`bg-gradient-to-r from-white to-teal-50 fixed top-0 right-0 h-full w-3/4 sm:w-1/2 bg-white border shadow-lg z-50 transform transition-transform duration-400 ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -63,10 +63,10 @@ export default function Navbar({ logo }) {
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-10 ml-2">
             <a href="https://github.com/azmainm" target="_blank" rel="noopener noreferrer">
-              <FaGithub className="text-violet-800 text-3xl hover:text-violet-600 transition-colors duration-200" />
+              <FaGithub className="text-teal-800 text-3xl hover:text-teal-600 transition-colors duration-200" />
             </a>
             <a href="https://linkedin.com/in/azmain-morshed/" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="text-violet-800 text-3xl hover:text-violet-600 transition-colors duration-200" />
+              <FaLinkedin className="text-teal-800 text-3xl hover:text-teal-600 transition-colors duration-200" />
             </a>
           </div>
 

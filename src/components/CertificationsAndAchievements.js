@@ -14,7 +14,7 @@ const CertificationsAndAchievements = () => {
       {/* Certifications and Achievements Content */}
       <div className="w-full md:w-2/3 lg:w-2/3 space-y-12">
         <div className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-violet-800 font-orbitron">Certifications</h2>
+          <h2 className="text-2xl font-bold mb-6 text-teal-700 font-orbitron">Certifications</h2>
           <ul className="list-disc pl-5 mb-6">
             <li>IBM AI Engineering Professional Certificate</li>
             <li>University of Alberta Software Product Management Professional Certificate</li>
@@ -25,7 +25,7 @@ const CertificationsAndAchievements = () => {
         </div>
 
         <div>
-          <h2 className="text-2xl font-bold mb-6 text-violet-800 font-orbitron">Achievements</h2>
+          <h2 className="text-2xl font-bold mb-6 text-teal-700 font-orbitron">Achievements</h2>
           <ul className="list-disc pl-5">
             <li>Kaggle Notebooks Master and Discussions Expert</li>
             <li>Hackerrank 5-star gold badge for problem-solving with Python</li>
