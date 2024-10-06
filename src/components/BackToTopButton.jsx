@@ -31,7 +31,7 @@ const BackToTopButton = () => {
       {visible && (
         <button
           onClick={scrollToTop}
-          className="p-3 rounded-full bg-teal-600 text-white shadow-lg hover:bg-teal-700 focus:outline-none transition duration-300 ease-in-out"
+          className="p-3 rounded-full bg-cyan-600 text-white shadow-lg hover:bg-teal-700 focus:outline-none transition duration-300 ease-in-out"
           title="Back to Top"
         >
           <FaChevronUp className="text-xl" />

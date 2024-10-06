@@ -16,7 +16,7 @@ export default function Projects() {
       <div className="w-full md:w-2/3 lg:w-2/3 space-y-12">
         {/* Web Development Projects */}
         <div>
-          <h2 className="text-2xl font-bold mb-6 text-teal-700 font-orbitron">Web Development</h2>
+          <h2 className="text-2xl font-bold mb-6 text-cyan-700 font-orbitron">Web Development</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <ProjectCard
               title="WebMint"
@@ -35,14 +35,14 @@ CSS."
               link="https://jackptbd.com/"
             />
           </div>
-          <a href="https://github.com/azmainm" target="_blank" rel="noopener noreferrer" className="text-lg flex items-center mt-4 text-teal-600 hover:underline">
+          <a href="https://github.com/azmainm" target="_blank" rel="noopener noreferrer" className="text-lg flex items-center mt-4 text-cyan-600 hover:underline">
             <FaGithub className="mr-2" /> View More on GitHub
           </a>
         </div>
 
         {/* Design Projects */}
         <div>
-          <h2 className="text-2xl font-bold mb-6 text-teal-700 font-orbitron">Design</h2>
+          <h2 className="text-2xl font-bold mb-6 text-cyan-700 font-orbitron">Design</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <ProjectCard
               title="Augmented Reality Interior Design App Case Study"
@@ -55,14 +55,14 @@ CSS."
               link="https://dribbble.com/"
             />
           </div>
-          <a href="https://dribbble.com/azmainm" target="_blank" rel="noopener noreferrer" className="text-lg flex items-center mt-4 text-teal-600 hover:underline">
+          <a href="https://dribbble.com/azmainm" target="_blank" rel="noopener noreferrer" className="text-lg flex items-center mt-4 text-cyan-600 hover:underline">
             <FaDribbble className="mr-2" /> View More on Dribbble
           </a>
         </div>
 
         {/* Machine Learning Projects */}
         <div>
-          <h2 className="text-2xl font-bold mb-6 text-teal-700 font-orbitron">Machine Learning</h2>
+          <h2 className="text-2xl font-bold mb-6 text-cyan-700 font-orbitron">Machine Learning</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <ProjectCard
               title="IBM Employee Churn Analysis & Prediction"
@@ -82,7 +82,7 @@ Pandas, Matplotlib, Seaborn & Scikit-Learn"
               link="https://shorturl.at/CFJVX"
             />
           </div>
-          <a href="http://kaggle.com/azmainmorshed" target="_blank" rel="noopener noreferrer" className="text-lg flex items-center mt-4 text-teal-600 hover:underline">
+          <a href="http://kaggle.com/azmainmorshed" target="_blank" rel="noopener noreferrer" className="text-lg flex items-center mt-4 text-cyan-600 hover:underline">
             <FaKaggle className="mr-2" /> View More on Kaggle
           </a>
         </div>
@@ -99,7 +99,7 @@ const ProjectCard = ({ title, description, link }) => (
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="mt-auto text-teal-600 hover:underline"
+      className="mt-auto text-cyan-600 hover:underline"
     >
       View Project
     </a>

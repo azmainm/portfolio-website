@@ -14,7 +14,7 @@ const Education = () => {
       <div className="w-full md:w-2/3 lg:w-2/3 space-y-12">
       <h1 className="text-black text-4xl font-bold font-orbitron mb-4">Education</h1>
         <div>
-          <h2 className="text-2xl font-bold mb-6 text-teal-700 font-orbitron">Academic Education</h2>
+          <h2 className="text-2xl font-bold mb-6 text-cyan-700 font-orbitron">Academic Education</h2>
           <p className="text-gray-600">
             Brac University, Dhaka, Bangladesh - Bachelor of Science in Computer Science | OCTOBER 2020 - JANUARY 2024
           </p>
@@ -40,7 +40,7 @@ const Education = () => {
         </div>
 
         <div>
-          <h2 className="text-2xl font-bold mb-6 text-teal-700 font-orbitron">Professional Education</h2>
+          <h2 className="text-2xl font-bold mb-6 text-cyan-700 font-orbitron">Professional Education</h2>
           <ul className="list-disc pl-5">
             <li>IBM AI Engineering Professional Certificate</li>
             <li>University of Alberta Software Product Management Professional Certificate</li>
