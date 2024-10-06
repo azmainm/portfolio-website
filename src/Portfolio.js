@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import CertificationsAndAchievements from './components/CertificationsAndAchievements';
+import Colab from './components/Colab'
 
 export default function Portfolio() {
   return (
@@ -30,6 +31,7 @@ export default function Portfolio() {
       <Landing />
       <Projects />
       <Skills />
+      <Colab />
       <Experience />
       <Education />
       <CertificationsAndAchievements />

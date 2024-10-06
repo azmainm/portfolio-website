@@ -18,10 +18,11 @@ export default function Navbar({ logo }) {
           <a href="#home" className="hover:text-teal-600 text-gray-800">Home</a>
           <a href="#projects" className="hover:text-teal-600 text-gray-800">Projects</a>
           <a href="#skills" className="hover:text-teal-600 text-gray-800">Skills</a>
-          <a href="#experience" className="hover:text-teal-600 text-gray-800">Experience</a>
-          <a href="#education" className="hover:text-teal-600 text-gray-800">Education</a>
+          <a href="#colab" className="hover:text-teal-600 text-gray-800">Colab</a>
+          <a href="#experience" className="hover:text-teal-600 text-gray-800">Background</a>
+          {/* <a href="#education" className="hover:text-teal-600 text-gray-800">Education</a>
           <a href="#certificationsandachievements" className="hover:text-teal-600 text-gray-800">Certifications</a>
-          <a href="#certificationsandachievements" className="hover:text-teal-600 text-gray-800">Achievements</a>
+          <a href="#certificationsandachievements" className="hover:text-teal-600 text-gray-800">Achievements</a> */}
           <a href="#contact" className="hover:text-teal-600 text-gray-800">Contact</a>
         </div>
       </nav>
@@ -54,10 +55,11 @@ export default function Navbar({ logo }) {
           <a href="#home" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Home</a>
           <a href="#projects" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Projects</a>
           <a href="#skills" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Skills</a>
-          <a href="#experience" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Experience</a>
-          <a href="#education" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Education</a>
+          <a href="#colab" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Colab</a>
+          <a href="#experience" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Background</a>
+          {/* <a href="#education" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Education</a>
           <a href="#certificationsandachievements" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Certifications</a>
-          <a href="#certificationsandachievements" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Achievements</a>
+          <a href="#certificationsandachievements" onClick={toggleNavbar} className="text-gray-800 text-lg font-light">Achievements</a> */}
           <a href="#contact" onClick={toggleNavbar} className="text-gray-800 text-lg font-light pb-10">Contact</a>
 
           {/* Social Media Icons */}

@@ -77,7 +77,7 @@ export default function Landing() {
           <h4
               className= "transition-opacity text-sm mt-10 duration-500 ease-out transform"
             >
-              Frontend Developer & Designer
+              Frontend & UX Engineer
             </h4>
         </div>
       </div>

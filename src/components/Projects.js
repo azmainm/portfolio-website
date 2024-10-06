@@ -77,7 +77,7 @@ Pandas, Matplotlib, Seaborn & Scikit-Learn"
               link="https://kaggle.com/"
             />
             <ProjectCard
-              title="AsirBnb Home Listings Analysis & Visualization"
+              title="AirBnb Home Listings Analysis & Visualization"
               description="Tableau Analysis & Visualization."
               link="https://shorturl.at/CFJVX"
             />
