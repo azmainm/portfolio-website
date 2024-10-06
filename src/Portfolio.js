@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import CertificationsAndAchievements from './components/CertificationsAndAchievements';
+import BackToTopButton from './components/BackToTopButton';
 import Colab from './components/Colab'
 
 export default function Portfolio() {
@@ -28,6 +29,7 @@ export default function Portfolio() {
       </header>
 
       {/* Main Sections */}
+      <BackToTopButton />
       <Landing />
       <Projects />
       <Skills />
