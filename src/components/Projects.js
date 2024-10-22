@@ -52,7 +52,7 @@ CSS."
             <ProjectCard
               title="Freya Makeup Store App"
               description="Wireframed and Designed the App's UI."
-              link="https://dribbble.com/shots/21693356-Jackpt-Phone-App-UI"
+              link="https://dribbble.com/shots/21731249-Freya-Makeup-Store-Mockup"
             />
           </div>
           <a href="https://dribbble.com/azmainm" target="_blank" rel="noopener noreferrer" className="text-lg flex items-center mt-4 text-cyan-600 hover:underline">
