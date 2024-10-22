@@ -46,17 +46,17 @@ CSS."
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <ProjectCard
               title="Augmented Reality Interior Design App Case Study"
-              description="Case study and wireframe design for an interior design AR app."
+              description="UX Case study and wireframe design for an interior design AR App."
               link="https://dribbble.com/shots/21873563-Interior-Design-AR-App-Case-Study"
             />
             <ProjectCard
-              title="Jackpt Mobile App"
-              description="Wireframed, Designed and Prototyped the entire app's UX and UI."
+              title="Freya Makeup Store App"
+              description="Wireframed and Designed the App's UI."
               link="https://dribbble.com/shots/21693356-Jackpt-Phone-App-UI"
             />
           </div>
           <a href="https://dribbble.com/azmainm" target="_blank" rel="noopener noreferrer" className="text-lg flex items-center mt-4 text-cyan-600 hover:underline">
-            <FaDribbble className="mr-2" /> View More on Dribbble
+            <FaDribbble className="mr-2" /> View More UX and Design projects on Dribbble
           </a>
         </div>
 
