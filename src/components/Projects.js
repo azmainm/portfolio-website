@@ -47,12 +47,12 @@ CSS."
             <ProjectCard
               title="Augmented Reality Interior Design App Case Study"
               description="Case study and wireframe design for an interior design AR app."
-              link="https://dribbble.com/"
+              link="https://dribbble.com/shots/21873563-Interior-Design-AR-App-Case-Study"
             />
             <ProjectCard
               title="Jackpt Mobile App"
               description="Wireframed, Designed and Prototyped the entire app's UX and UI."
-              link="https://dribbble.com/"
+              link="https://dribbble.com/shots/21693356-Jackpt-Phone-App-UI"
             />
           </div>
           <a href="https://dribbble.com/azmainm" target="_blank" rel="noopener noreferrer" className="text-lg flex items-center mt-4 text-cyan-600 hover:underline">
