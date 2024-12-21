@@ -69,8 +69,7 @@ const Colab = () => {
   download="AzmainMorshedResume.pdf"
   className="text-3xl inline-block text-gray-100 font-medium leading-tight uppercase hover:transition duration-150 ease-in-out"
 >
-  Download File
-</a>
+  Download my Resume
 
               <FaDownload className="mr-0 ml-2 hover:text-cyan-400 hover:scale-105 transition ease-in-out duration-300" />
             </a>
