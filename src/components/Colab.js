@@ -63,12 +63,15 @@ const Colab = () => {
           Download my Resume{' '}
           <span>
             <a
-              href="https://drive.google.com/uc?export=download&id=1EC07NmQCBoFmmAoGrRAoDYM_iNI93GsS"
-              target="_blank"
-              rel="noopener noreferrer"
-              download="Azmain_Morshed_CV.pdf"
-              className="text-3xl inline-block text-gray-100 font-medium leading-tight uppercase hover:transition duration-150 ease-in-out"
-            >
+  href="https://drive.google.com/uc?export=download&id=1zr2d7wn4xNVlVFM272LaMV76MpbgtZc6"
+  target="_blank"
+  rel="noopener noreferrer"
+  download="AzmainMorshedResume.pdf"
+  className="text-3xl inline-block text-gray-100 font-medium leading-tight uppercase hover:transition duration-150 ease-in-out"
+>
+  Download File
+</a>
+
               <FaDownload className="mr-0 ml-2 hover:text-cyan-400 hover:scale-105 transition ease-in-out duration-300" />
             </a>
           </span>{' '}
